@@ -14,11 +14,4 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 
 # Run the Streamlit application on port 8501
 # and make it accessible outside the container
-CMD [
-    "streamlit",
-    "run",
-    "app.py",
-    "--server.port=8501",
-    "--server.address=0.0.0.0",
-    "--server.enableXsrfProtection=false"
-]
+CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0", "--server.enableXsrfProtection=false"]
