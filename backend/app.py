@@ -7,14 +7,6 @@ import pandas as pd
 from flask import Flask, request, jsonify
 
 
-%%writefile backend_files/app.py
-
-# Import necessary libraries
-import os
-import joblib
-import pandas as pd
-
-from flask import Flask, request, jsonify
 
 
 # ---------------------------------------------------------
