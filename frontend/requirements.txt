@@ -1,0 +1,9 @@
+
+# Data manipulation
+pandas==2.2.2
+
+# Streamlit frontend
+streamlit==1.43.2
+
+# HTTP communication with the Flask backend
+requests==2.28.1
