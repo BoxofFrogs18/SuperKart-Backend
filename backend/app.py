@@ -8,7 +8,6 @@ from flask import Flask, request, jsonify
 
 
 
-
 # ---------------------------------------------------------
 # Create the Flask application
 # ---------------------------------------------------------
